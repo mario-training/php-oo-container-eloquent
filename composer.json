@@ -1,0 +1,30 @@
+{
+    "name": "mario-training/php-oo-container-eloquent",
+    "description": "PHPOO Training",
+    "require": {
+        "webpatser/laravel-uuid": "^4.0",
+        "illuminate/database": "^8.83",
+        "illuminate/events": "^8.83"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^8.5.8|^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCity\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marioAquinoJF",
+            "email": "marioaquino31@hotmail.com"
+        }
+    ]
+}
