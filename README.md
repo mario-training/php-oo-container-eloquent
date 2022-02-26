@@ -34,3 +34,6 @@ This is a training to use OO with PHP, on Laravel Eloquent.
 2. Take rules from narrative.
 3. Act like Da Vinci, procrastinate the code until understand the problem: **in model design, we trust**.
 4. Implementing rules: test first, code later.
+
+## Practice
+### <a href="https://github.com/mario-training/php-oo-container-eloquent/blob/main/docs/regras-26-02-2022.md">Ecercises 01 e 02</a>
