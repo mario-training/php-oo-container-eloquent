@@ -2,8 +2,9 @@
 
 namespace MyCity\Repositories;
 
-use Illuminate\Database\Eloquent\Model;
-use MyCity\EloquentModel\Country;
+
+
+use MyCity\EloquentModels\Country;
 
 class CountryRepository extends AbstractRepository
 {
@@ -15,7 +16,7 @@ class CountryRepository extends AbstractRepository
 
     public static function getInstance()
     {
-        return new CountryRepository();
+        return new Country();
     }
 
 }

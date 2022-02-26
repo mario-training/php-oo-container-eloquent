@@ -1,6 +1,6 @@
 <?php
 
-namespace MyCity\EloquentModel;
+namespace MyCity\EloquentModels;
 
 use MyCity\Traits\UUIDBased;
 use Illuminate\Database\Eloquent\Model;
@@ -17,6 +17,8 @@ class Country extends Model
         'id',
         'name',
         'abbreviation',
+        'created_at',
+        'updated_at'
 
     ];
     protected $casts = [

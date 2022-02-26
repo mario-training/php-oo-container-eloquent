@@ -2,8 +2,7 @@
 
 namespace MyCity\Repositories;
 
-use Illuminate\Database\Eloquent\Model;
-use MyCity\EloquentModel\Building;
+use MyCity\EloquentModels\Building;
 
 class BuildingRepository extends AbstractRepository
 {
@@ -15,7 +14,7 @@ class BuildingRepository extends AbstractRepository
 
     public static function getInstance()
     {
-        return new BuildingRepository();
+        return new Building();
     }
 
 }

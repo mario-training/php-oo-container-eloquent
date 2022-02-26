@@ -2,8 +2,8 @@
 
 namespace MyCity\Repositories;
 
-use Illuminate\Database\Eloquent\Model;
-use MyCity\EloquentModel\Address;
+
+use MyCity\EloquentModels\Address;
 
 class AddressRepository extends AbstractRepository
 {
@@ -15,7 +15,7 @@ class AddressRepository extends AbstractRepository
 
     public static function getInstance()
     {
-        return new AddressReposotory();
+        return new Address();
     }
 
 }

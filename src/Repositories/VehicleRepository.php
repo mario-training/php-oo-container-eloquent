@@ -2,20 +2,20 @@
 
 namespace MyCity\Repositories;
 
-use Illuminate\Database\Eloquent\Model;
-use MyCity\EloquentModel\Car;
+
+use MyCity\EloquentModels\Vehicle;
 
 class VehicleRepository extends AbstractRepository
 {
 
     public static function modelClass()
     {
-        returnVehicle::class;
+        return Vehicle::class;
     }
 
     public static function getInstance()
     {
-        return newVehicleRepository();
+        return Vehicle();
     }
 
 }

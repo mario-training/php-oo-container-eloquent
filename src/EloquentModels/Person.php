@@ -1,6 +1,6 @@
 <?php
 
-namespace MyCity\EloquentModel;
+namespace MyCity\EloquentModels;
 
 use MyCity\Traits\UUIDBased;
 use Illuminate\Database\Eloquent\Model;
@@ -19,6 +19,7 @@ class Person extends Model
         'name',
         'email',
         'birth_date',
+        'death_date',
         'height',
         'weight',
         'gender'

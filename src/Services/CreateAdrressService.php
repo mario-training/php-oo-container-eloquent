@@ -1,11 +1,13 @@
 <?php
 
 namespace MyCity\Services;
-class CreatePersonService
+
+class CreateAdrressService
 {
     public function create(array $dada)
     {
+        // cidade
         //    - Deve ter um endereço
-        //    - Deve ser maior de 18 anos
+
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace MyCity\EloquentModel;
+namespace MyCity\EloquentModels;
 
 use MyCity\Traits\UUIDBased;
 use Illuminate\Database\Eloquent\Model;
@@ -22,11 +22,11 @@ class Address extends Model
     ];
     protected $casts = [
         'id'              => 'uuid',
+        'city_id'         => 'uuid',
         'neighborhood'    => 'string',
         'street'          => 'string',
-        'name'            => 'string',
+        'number'          => 'string',
         'additional_info' => 'object',
-
     ];
     protected $dates = [
         'created_at',

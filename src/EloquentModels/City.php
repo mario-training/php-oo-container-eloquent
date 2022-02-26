@@ -1,6 +1,6 @@
 <?php
 
-namespace MyCity\EloquentModel;
+namespace MyCity\EloquentModels;
 
 use MyCity\Traits\UUIDBased;
 use Illuminate\Database\Eloquent\Model;
